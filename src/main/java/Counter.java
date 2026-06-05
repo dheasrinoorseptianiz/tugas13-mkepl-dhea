@@ -39,6 +39,11 @@ public class Counter {
 		count = count ^ i;
 	}
 	
+	public void doubleCount(){
+		int i = 2;
+		multiplyBy(i);
+	}
+	
 	public boolean isCountEven(){
 		return count%2 == 0;
 	}
